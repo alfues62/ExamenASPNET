@@ -1,0 +1,40 @@
+﻿body {
+}
+
+/* Estilo para la clase totalContainer */
+.totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* Estilo para la clase patientData */
+.patientData {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    width: 65%;
+}
+
+/* Estilos para las etiquetas label */
+label {
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para las etiquetas label con id Label7-12 */
+#ContentPlaceHolder1_Label7,
+#ContentPlaceHolder1_Label8,
+#ContentPlaceHolder1_Label9,
+#ContentPlaceHolder1_Label10,
+#ContentPlaceHolder1_Label11,
+#ContentPlaceHolder1_Label12 {
+    margin: 5px;
+}

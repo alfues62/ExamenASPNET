@@ -1,0 +1,73 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.totalContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+    .searchbar input[type=text] {
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        width: 50%;
+        margin-right: 10px;
+    }
+
+
+.doctorData {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+    .doctorData label {
+        font-weight: bold;
+        margin-right: 10px;
+        width: 30%;
+        text-align: right;
+    }
+
+    .doctorData input[type=text] {
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        width: 70%;
+    }
+
+.button {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    .button:hover {
+        background-color: darkcyan;
+    }
