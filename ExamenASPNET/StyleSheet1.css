@@ -1,2 +1,126 @@
-﻿body {
+﻿/* Estilos para el contenedor principal */
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos para el header */
+.header {
+    flex: 0 0 auto;
+    text-align: center; 
+    background-color: #f2f2f2; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el footer */
+.footer {
+    flex: 0 0 auto;
+    margin-top: auto;
+    text-align: center;
+    color:aliceblue;
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.central {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilos para el menú */
+.menu {
+    flex: 0 0 15%;
+    color: aliceblue;
+    background-color: dimgrey;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 600px;
+}
+
+.menuPanel {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.links{
+    color:aliceblue;
+    text-decoration:none;
+}
+
+.menuPanel > *:first-child {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el mainPanel */
+.mainPanel {
+    flex: 1 0 85%;
+    margin: 10px;
+}
+
+#ContentPlaceHolder1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    /* Estilos para las cajas de texto */
+    #ContentPlaceHolder1 .text {
+        margin-bottom: 10px;
+    }
+
+    /* Estilos para el botón */
+    #ContentPlaceHolder1 .button {
+        margin-top: 10px;
+    }
+
+.centerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 767px) {
+    /* Para pantallas menores a 767px, el menú y el mainPanel se muestran uno debajo del otro */
+    #container {
+        flex-direction: column;
+    }
+    .central {
+        flex-direction: column;
+    }
+
+    .menuPanel {
+        flex-direction: row;
+        margin: 10px;
+        align-items: center;
+    }
+
+        .menuPanel > * {
+            margin-right: 20px;
+        }
+
+    .menu {
+        flex: 1 0 auto;
+        height:auto;
+    }
+
+    .mainPanel {
+        flex: 1 0 auto;
+    }
 }
