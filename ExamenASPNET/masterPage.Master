@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="ExamenASPNET.masterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="header">
+            <h1>prueba</h1>
+        </div>
+
+        <div class ="menu">
+            <p>prueba</p>
+        </div>
+
+        <div class="mainPanel">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="footer">
+            <p>prueba</p>
+        </div>
+    </form>
+</body>
+</html>
