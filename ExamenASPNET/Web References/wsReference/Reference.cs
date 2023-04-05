@@ -13,7 +13,7 @@
 // 
 #pragma warning disable 1591
 
-namespace webServices.wsReference {
+namespace ExamenASPNET.wsReference {
     using System;
     using System.Web.Services;
     using System.Diagnostics;
@@ -35,7 +35,7 @@ namespace webServices.wsReference {
         
         /// <remarks/>
         public WebService1() {
-            this.Url = global::webServices.Properties.Settings.Default.webServices_wsReference_WebService1;
+            this.Url = global::ExamenASPNET.Properties.Settings.Default.ExamenASPNET_wsReference_WebService1;
             if ((this.IsLocalFileSystemWebService(this.Url) == true)) {
                 this.UseDefaultCredentials = true;
                 this.useDefaultCredentialsSetExplicitly = false;

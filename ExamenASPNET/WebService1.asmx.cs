@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Services;
 
+using ExamenASPNET.wsReference;
+
 namespace ExamenASPNET
 {
     /// <summary>
